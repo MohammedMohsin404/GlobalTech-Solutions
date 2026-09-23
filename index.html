@@ -1,31 +1,34 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google FOnts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
 
     <!-- CSS  -->
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>GlobalTech Solutions</title>
 </head>
 
-<body>  
-
-
+<body>
     <main>
         <section class="hero-bg">
-
             <nav>
                 <div class="navbar">
-                    <div class="logo"> <span> GlobalTech </span> Solutions</div>
+                    <div class="logo"><span> GlobalTech </span> Solutions</div>
                     <ul class="nav-links">
                         <li><a href="#home">Home</a></li>
                         <li><a href="#about">About Us</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#contact">Contact</a></li>
                         <!-- <li><a href="#contact">Get Started</a></li> -->
-
                     </ul>
                     <button class="btn">Get Started</button>
                 </div>
@@ -33,36 +36,95 @@
             <!-- Hero -->
             <section class="hero">
                 <div class="hero-content">
-                    <h1>Welcome to Our Website</h1>
-                    <p>Discover our services and solutions.</p>
-                    <a href="#services" class="btn">Learn More</a>
+                    <p class="hero-top-text">TECHNOLOGY FOR A BRIGHTER TOMORROW</p>
+                    <h1>
+                        Build Better <br />
+                        Digital <span class="secondary-color">Experiences</span>
+                    </h1>
+                    <p class="pera">
+                        We help businesses grow with modern web solutions, <br />
+                        creative design, and result-driven digital strategies.
+                    </p>
+                    <div class="btns">
+                        <a href="#services" class="btn m-r2">Get Started -></a>
+                        <a href="#services" class="btn-secondary">Watch Video</a>
+                    </div>
                 </div>
 
+                <div class="numbers">
+                    <div>
+                        <h2>250+</h2>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="number">
+                        <h2>500+</h2>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div>
+                        <h2>5+</h2>
+                        <p>YearsExprience</p>
+                    </div>
+                </div>
             </section>
         </section>
         <!-- Services -->
         <section class="services" id="services">
-            <h2>Our Services</h2>
+            <p class="services-top-pera">---OUR SERVICES</p>
+            <h2 class="section-title">What We Do</h2>
+            <p class="section-pera">
+                We provide end-to-end digital solutions to help your business <br> grow and
+                succeed in the digital world.
+            </p>
+
             <div class="service-cards">
                 <div class="service-card">
-                    <h3>Service 1</h3>
-                    <p>Description of Service 1.</p>
+                    <img src="./assets/images/services/code.png" alt="" />
+                    <h3>Web Development</h3>
+                    <p>
+                        Custom, scalable and high-performance websites using modern
+                        technologies.
+                    </p>
+                    <a href="">Learn More →</a>
                 </div>
                 <div class="service-card">
-                    <h3>Service 2</h3>
-                    <p>Description of Service 2.</p>
+                    <img src="./assets/images/services/wordpress.png" alt="" />
+                    <h3>WordPress Development</h3>
+                    <p>
+                        Beautiful, functional and easy-to-manage WordPress websites for
+                        your business.
+                    </p>
+                    <a href="">Learn More →</a>
                 </div>
                 <div class="service-card">
-                    <h3>Service 3</h3>
-                    <p>Description of Service 3.</p>
+                    <img src="./assets/images/services/digitalmarketing.png" alt="" />
+                    <h3>Digital Marketing</h3>
+                    <p>
+                        Data-driven marketing strategies to increase your brand visibility
+                        and drive results.
+                    </p>
+                    <a href="">Learn More →</a>
                 </div>
             </div>
         </section>
 
         <!-- About Us -->
         <section class="about" id="about">
-            <h2>About Us</h2>
-            <p>Learn more about our company and mission.</p>
+           <div class="about-contents">
+             <p class="about-top-pera">---ABOUT GLOBALTECH SOLUTIONS</p>
+            <h2>Your Trusted <br/>
+
+                Technology Partner
+            </h2>
+            <p>GlobalTech Solutions is a forward-thinking technology company
+                dedicated to delivering innovative digital solutions.
+
+                We combine creativity, technology and strategy to help
+                businesses achieve their goals and create real impact.</p>
+                <button class="btn">Learn More →</button>
+           </div>
+           <div class="about-image">
+            <img src="./assets/images/about.jpg" alt="" />    
+           </div>
         </section>
 
         <!-- Contact -->
@@ -75,9 +137,7 @@
         <footer class="footer">
             <p>&copy; 2023 Our Company. All rights reserved.</p>
         </footer>
-
     </main>
-
 </body>
 
 </html>
